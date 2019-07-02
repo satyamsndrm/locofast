@@ -1,0 +1,211 @@
+.home {
+  float: right;
+  width: 72%;
+  background-color: whitesmoke;
+  .top-content {
+    box-shadow: 0 5px 5px -5px #333;
+    padding: 5px 20px;
+    background-color: white;
+    .left,
+    .right {
+      float: left;
+    }
+    .left {
+      width: 70%;
+      //   padding: 10px;
+      .breadcrumbs {
+        font-size: 14px;
+      }
+      .title {
+        font-weight: bold;
+        padding-top: 5px;
+        .label {
+          font-size: 11px;
+          margin-left: 10px;
+          padding: 5px 15px;
+          background-color: rgb(247, 216, 150);
+          border-radius: 10px;
+          text-transform: uppercase;
+        }
+      }
+      .upl_by {
+        color: black;
+        font-size: 14px;
+        .date {
+          margin-left: 20px;
+        }
+      }
+    }
+    .right {
+      width: 30%;
+      .persons {
+        background-color: rgb(214, 209, 209);
+        display: inline-block;
+        padding: 7px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        div {
+          display: inline-block;
+        }
+        .box {
+          border-radius: 50%;
+          border: 2px solid white;
+          background-color: rebeccapurple;
+          text-align: center;
+          padding-top: 7px;
+          padding-bottom: 10px;
+          height: 20px;
+          width: 40px;
+          color: white;
+        }
+        .persons {
+          position: relative;
+          right: -20px;
+        }
+        .people_icon {
+          position: relative;
+          top: 5px;
+          padding-left: 20px;
+        }
+      }
+    }
+    .clearfix {
+      visibility: hidden;
+      clear: both;
+    }
+    .nav_tabs {
+      display: block;
+      margin-top: 20px;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          margin-left: 20px;
+          display: inline;
+          a {
+            color: black;
+            padding: 5px 10px;
+            text-decoration: none;
+          }
+          a.active {
+            color: black;
+            font-weight: 600;
+            border-bottom: 2px solid blue;
+          }
+        }
+      }
+    }
+  }
+  .main-content {
+    margin: 30px 50px;
+    min-height: 400px;
+    background-color: white;
+    .tab-content {
+      padding: 10px 30px;
+      .left,
+      .right {
+        float: left;
+      }
+      .left {
+        width: 20%;
+        .title {
+          margin-bottom: 20px;
+          font-weight: 500;
+        }
+        .img-wrap {
+          position: relative;
+          img {
+            height: 200px;
+            width: 150px;
+          }
+          .bottom {
+            height: 35px;
+            width: 150px;
+            background-color: black;
+            opacity: 0.6;
+            position: absolute;
+            bottom: 0px;
+            .content {
+              text-align: right;
+              margin-right: 10px;
+              margin-top: 5px;
+              color: white;
+            }
+          }
+        }
+      }
+      .right {
+        width: 70%;
+        float: right;
+        .form-container {
+          margin-top: 30px;
+          .form-inputs {
+            width: 100%;
+            margin-bottom: 20px;
+            label {
+              display: block;
+              margin-bottom: 5px;
+            }
+            input {
+              width: 100%;
+              padding: 10px;
+            }
+            .right_cnt {
+              float: right;
+              font-size: 12px;
+            }
+            .group-inputs {
+              border: 1px solid black;
+              padding: 7px;
+              width: 100%;
+              select,
+              div {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+              }
+              select {
+                width: 46%;
+                border: none;
+              }
+              select:focus {
+                border: none;
+              }
+              div.height {
+                min-height: 20px;
+                width: 0px;
+                border: 1px solid black;
+                position: relative;
+                top: 4px;
+                margin-right: 5px;
+                margin-left: 5px;
+              }
+            }
+          }
+          .btn-wrapper {
+            input {
+              border: none;
+              background: steelblue;
+              padding: 10px 20px;
+              color: white;
+              font-weight: 600;
+              border-radius: 20px;
+              -webkit-border-radius: 20px;
+              -moz-border-radius: 20px;
+              -ms-border-radius: 20px;
+              -o-border-radius: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  background-color: whitesmoke;
+}
